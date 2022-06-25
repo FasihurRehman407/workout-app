@@ -1,0 +1,180 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  overscroll-behavior-y: none;
+  font-weight: 400;
+}
+.app{
+  margin: 1.5rem 0rem;
+}
+.workout{
+  height: 39rem;
+  border: 1px solid #2d3439;
+  border-right: none;
+  background-color: #2d3439;
+ 
+}
+.map{
+  height: 39rem;
+  border: 1px solid whitesmoke;
+  background-color: whitesmoke;
+}
+.logo{
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.workout-form{
+  background-color: #42484d;
+  border-radius: 0.5rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  line-height: 0.7;
+}
+.form{
+  transition: all 0.5s;
+}
+.form_input{
+  width: 45%;
+  padding-left: 0.4rem;
+  background-color: rgb(214 222 224);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+.form_input:focus {
+  outline: none;
+  background-color: #fff;
+}
+.form_label{
+  width: 40%;
+  color: white;
+}
+.duration-label , .type-label{
+  width: 50%;
+}
+.ele-label{
+  width: 40%;
+}
+textarea :focus{
+  border: none;
+}
+input :focus{
+  border: none;
+}
+.workOUT{
+  color: white;
+  list-style: none;
+  background-color: #42484d;
+  width: 93%;
+  margin-left: 1rem;
+  /* margin-top: 2rem; */
+  border-radius: 5px;
+  margin-right: 1rem;
+  padding-top: 1.4rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1px;
+  cursor: pointer;
+  border-left: 4px solid #00c46a;
+}
+.entry{
+  padding-top: 1rem;
+  /* padding-bottom: 1rem; */
+}
+.workout_details{
+  font-family: inherit;
+  font-size: 15px;
+  width:150%;
+  padding-bottom: 1rem;
+  font-weight: 800;
+  
+}
+.workout_unit{
+  font-size: 11px;
+}
+.workout-cycling{
+  border-left: 4px solid #ffb545;
+  margin-bottom: 1rem;
+}
+
+.twitter-link:link,
+.twitter-link:visited {
+  color:rgb(133, 133, 133);
+  border-bottom: 1px solid #aaa;
+  transition: all 0.2s;
+}
+
+.twitter-link:hover,
+.twitter-link:active {
+  color: #ececec;
+} 
+
+/* Popup width is defined in JS using options */
+.leaflet-popup .leaflet-popup-content-wrapper {
+  background-color: #2d3439;
+  color: #ececec;
+  border-radius: 5px;
+  padding-right: 0.6rem;
+}
+
+.leaflet-popup .leaflet-popup-tip {
+  background-color: #2d3439;
+}
+.leaflet-running{
+border-left: 5px solid #00c46a;
+border-radius: 8px;
+font-size: 10px;
+}
+.leaflet-cycling{
+  border-left: 5px solid #ffb545;
+  border-radius: 8px;
+  font-size: 10px;
+
+}
+.hidden{
+  opacity: 0;
+  display: none;
+  transition: all 0.5s;
+  margin-bottom: 0;
+}
+.hidden-form{
+  display: none;
+}
+.copyright{
+  position: fixed;
+  right: 49.15rem;
+  top: 35.5rem;
+  width: 28%;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #aaa;
+
+}
+.all_entries{
+  max-height: 65%;
+  overflow-y: scroll;
+}
+.all_entries::-webkit-scrollbar {
+  width: 0;
+}
+.form-btn{
+  display: none;
+}
